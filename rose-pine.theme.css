@@ -4,17 +4,30 @@
 * @authorId 403390454273409028
 * @version 3.0.9
 * @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
-* @source https://github.com/rose-pine/discord
-* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
+* @source https://github.com/blueb442/discord
+* @updateUrl https://github.com/blueb442/discord/blob/rose-pine.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    --font-display: Fira Code;
+}
+
+.title-17SveM, .name-3Uvkvr{
+    font-size: 14px;
+}
+
+.username-h_Y3Us {
+    font-family: var(--font-display);
+    font-size: 14px;
+}
 
 .theme-dark {
-    --background-primary: #26233a;
-    --background-secondary: #1f1d2e;
-    --background-secondary-alt: #26233a;
-    --channeltextarea-background: #2c2842;
+    --background-primary: #161423;
+    --background-secondary: #13111d;
+    --background-secondary-alt: #191725;
+    --channeltextarea-background: #191625;
     --background-tertiary: #191724;
     --background-accent: #ebbcba;
     --text-normal: #dad7fd;
@@ -33,7 +46,7 @@
     --scrollbar-thin-thumb: #191724; 
     --scrollbar-thin-track: transparent; 
     --scrollbar-auto-thumb: #191724; 
-    --scrollbar-auto-track: transparent; 
+    --scrollbar-auto-track: transparent;
 }
 
 .theme-light {
@@ -56,25 +69,14 @@
     --interactive-active: #575279;
 }
 
-body {
-    --font-display: 'IBM Plex Mono';
-}
-
 .body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background-color: var(--background-tertiary);
 }
 
-.title-17SveM, .name-3Uvkvr{
-    font-size: 14px;
-}
-
 .panels-3wFtMD {
     background-color: var(--background-secondary);
-}
-
-.username-h_Y3Us {
-    font-family: var(--font-display);
-    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .peopleColumn-1wMU14, .panels-j1Uci_, .peopleColumn-29fq28, .peopleList-2VBrVI, .content-2hZxGK, .header-1zd7se, .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3{
