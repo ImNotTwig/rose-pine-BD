@@ -14,10 +14,6 @@ body {
     --font-display: IBM Plex Mono;
 }
 
-.title-17SveM, .name-3Uvkvr{
-    font-size: 10px;
-}
-
 .username-h_Y3Us {
     font-family: var(--font-display);
     font-size: 10px;
