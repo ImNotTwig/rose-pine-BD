@@ -8,19 +8,19 @@
 * @updateUrl https://github.com/blueb442/discord/blob/rose-pine.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 body {
-    --font-display: Fira Code;
+    --font-display: IBM Plex Mono;
 }
 
 .title-17SveM, .name-3Uvkvr{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .username-h_Y3Us {
     font-family: var(--font-display);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .theme-dark {
